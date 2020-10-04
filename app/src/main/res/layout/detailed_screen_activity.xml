@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/tvSchoolId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School Id"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tvNumberOfSatTestTakers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number Of Sat Test Takers"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tvSatCriticalReadingAvgScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sat Critical Reading Avg Score"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tvSatMathAvgScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sat Math  Average Score"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tvSatWritingAvgScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sat Writing Average Score"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
